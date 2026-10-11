@@ -1,52 +1,79 @@
-# Protection From Phishing
+# 🛡️ Protection From Phishing
 
-A Python-based tool for detecting phishing emails.
+A Python-based tool designed to help detect potential **phishing emails** by analyzing common indicators and suspicious patterns.
 
-## Overview
+> **Disclaimer**: This tool is for **educational and authorized testing purposes only**. Do not use it on systems or emails you do not own or have explicit permission to analyze.
 
-This project helps identify potential phishing attempts in emails by analyzing common patterns and suspicious indicators.
+---
 
-## Features
+## 📌 Overview
 
-- Email content analysis for phishing indicators
-- Simple and focused implementation
-- Easy to extend for additional detection rules
+Phishing remains one of the most common attack vectors. This project provides a simple, extensible Python script to identify potential phishing characteristics in email content.
 
-## Tech Stack
+---
 
-- **Python**
+## ✨ Features
 
-## Getting Started
+- Analyzes email content for common phishing indicators
+- Easy to understand and modify detection logic
+- Lightweight and focused implementation
+- Good starting point for learning email security analysis
+
+---
+
+## 🛠️ Tech Stack
+
+- **Language**: Python 3
+- **Focus**: Email Security / Blue Team / Phishing Analysis
+
+---
+
+## 🚀 Getting Started
 
 ### Prerequisites
 
-- Python 3.x installed on your machine
+- Python 3.x
 
-### Usage
+### Installation & Usage
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/Guruprasad1782011/protection-from-.git
-   cd protection-from-
-   ```
+```bash
+# Clone the repository
+git clone https://github.com/Guruprasad1782011/protection-from-.git
+cd protection-from-
 
-2. Run the detector:
-   ```bash
-   python email_phishing_detector.py
-   ```
+# Run the detector
+python email_phishing_detector.py
+```
 
-## Project Structure
+---
+
+## 📁 Project Structure
 
 ```
 protection-from-/
 ├── email_phishing_detector.py   # Main phishing detection script
-└── .github/                     # GitHub-related files
+├── README.md                    # Project documentation
+└── .github/                     # GitHub configuration
 ```
 
-## Contributing
+---
 
-Feel free to open issues or submit pull requests if you'd like to improve the detection logic or add new features.
+## 🎯 Learning Goals
 
-## License
+This project helps practice:
+- Pattern matching for suspicious content
+- Basic email security concepts
+- Writing clean and readable security tools
+- Understanding common phishing techniques
 
-This project is open source.
+---
+
+## 🤝 Contributing
+
+Suggestions and improvements are welcome! Feel free to open an issue or submit a pull request to enhance the detection rules.
+
+---
+
+## 📜 License
+
+This project is open source and intended for educational use.
